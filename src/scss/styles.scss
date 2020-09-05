@@ -61,11 +61,12 @@ main {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 50vh;
+  grid-auto-rows: 45vh;
   article {
+    cursor: pointer;
     height: 100%;
     display: grid;
-    grid-template-rows: 10fr 1fr;
+    grid-template-rows: 10fr 0.8fr;
     img {
       min-width: 100%;
       height: 100%;
